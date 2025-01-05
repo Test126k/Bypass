@@ -13,7 +13,7 @@ basicConfig(format="[%(asctime)s] [%(levelname)s] - %(message)s",
 
 load_dotenv('config.env', override=True)
 
-BOT_TOKEN = environ.get('BOT_TOKEN', '')
+BOT_TOKEN = environ.get('BOT_TOKEN', '8124178262:AAGzMFrLk2TV_cZvSmg6lrVWlEpC_DHnQE4')
 if len(BOT_TOKEN) == 0:
     log_error("BOT_TOKEN variable is missing! Exiting now")
     exit(1)
